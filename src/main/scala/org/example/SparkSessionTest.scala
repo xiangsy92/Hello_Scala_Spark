@@ -20,6 +20,7 @@ object SparkSessionTest extends App {
   println("APP Name :" + sparkSession2.sparkContext.appName);
   println("Deploy Mode :" + sparkSession2.sparkContext.deployMode);
   println("Master :" + sparkSession2.sparkContext.master);
+  println("checking.......");
 
   //---
   println("----------------")
